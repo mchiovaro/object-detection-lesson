@@ -1,5 +1,6 @@
 # folders
 data/*
+!data/README.md
 models/*
 results/*
 
