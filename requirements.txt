@@ -1,0 +1,17 @@
+# Build Python 3.12 environment
+torch==2.2.2
+torchvision==0.17.2
+ultralytics==8.3.221
+numpy==1.26.4
+opencv-python==4.11.0.86
+matplotlib==3.10.7
+pandas==2.3.3
+PyYAML==6.0.3
+lap==0.5.12
+ipykernel==6.30.1
+nbformat==5.10.4
+polars==1.35.1
+
+# for data download
+kagglehub==1.0.3
+kagglesdk==0.1.38
