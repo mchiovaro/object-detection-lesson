@@ -12,3 +12,6 @@ notebooks/02_object_tracking_lesson.ipynb
 docs/walkthrough.docx
 docs/CORAL_CAM.md
 docs/THIRD_PARTY.md
+
+# misc
+**/__pycache__/
