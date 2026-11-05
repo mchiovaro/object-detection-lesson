@@ -81,16 +81,6 @@ Open `01_object_detection_lesson.ipynb` in VS Code and select the `.venv` enviro
 
 In the first cell, set `LOCAL_ROOT` to your project folder. Run the notebook from the beginning.
 
-## Run in Google Colab
-
-1. Ensure all project files are inside a root folder named `object-detection-lesson`.
-2. Zip that folder as `object-detection-lesson.zip`.
-3. Upload `01_object_detection_lesson.ipynb` to Colab.
-4. Run the first cell and upload the ZIP when prompted.
-5. Run the dependency-installation cell. Restart the runtime if requested, then rerun from the beginning.
-
-A GPU runtime can speed up training. Switch it at the beginning of the runtime so you don't lose work!
-
 ## Prepare the data
 
 The notebook checks for prepared data and runs the preparation scripts when needed. You can also run them yourself from the project folder:
