@@ -14,8 +14,7 @@ The goal is to understand both **how to train a detector** and **how to decide w
 - Fine-tune a pretrained YOLO detector.
 - Interpret training losses, precision–recall curves, per-class AP, and mAP at different IoU thresholds.
 - Separate confidence thresholds, NMS overlap, and evaluation IoU.
-- Examine false positives, missed objects, class confusion, and small-object performance.
-- Compare detection quality with prediction speed and model size.
+- Examine missed objects, class confusion, and small-object performance.
 
 ## Repository contents
 
