@@ -15,3 +15,8 @@ docs/CORAL_CAM.md
 # misc
 **/__pycache__/
 .DS_Store
+
+# tiaia example model training files
+scripts/train_model.py
+configs/train_tiaia.yaml
+src/*
