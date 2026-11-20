@@ -21,7 +21,7 @@ The goal is to understand both **how to train a detector** and **how to decide w
 | File or folder | Purpose |
 |---|---|
 | `01_object_detection_lesson.ipynb` | Main lesson, including training, plots, evaluation, and exercises |
-| `utils/get_data.py` | Downloads the original dataset |
+| `utils/get_aquariumv2.py` | Downloads the original dataset |
 | `utils/COCO_to_YOLO.py` | Converts COCO annotations into YOLO labels and copies images into split folders |
 | `utils/YOLO_to_COCO.py` | Converts YOLO annotations into COCO labels for easier visualization/plotting |
 | `requirements.txt` | Dependencies |
@@ -86,7 +86,7 @@ In the first cell, set `LOCAL_ROOT` to your project folder. Run the notebook fro
 The notebook checks for prepared data and runs the preparation scripts when needed. You can also run them yourself from the project folder:
 
 ```bash
-python utils/get_data.py
+python utils/get_aquariumv2.py
 python utils/COCO_to_YOLO.py
 ```
 
