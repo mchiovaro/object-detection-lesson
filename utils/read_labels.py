@@ -3,7 +3,7 @@ import numpy as np
 from PIL import Image
 from utils.COCO_to_YOLO import CLASSES
 
-DATA_DIR = Path(__file__).parent.parent / "data" / "aquarium_clean"
+DATA_DIR = Path(__file__).parent.parent / "data" / "aquarium" / "yolo"
 
 def read_labels(image_path):
     """Read YOLO labels and convert normalized boxes back to pixel corners.

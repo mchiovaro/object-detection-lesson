@@ -5,8 +5,8 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / "data" / "aquarium_raw"
-DESTINATION = ROOT / "data" / "aquarium_clean"
+SOURCE = ROOT / "data" / "aquarium" / "raw"
+DESTINATION = ROOT / "data" / "aquarium" / "yolo"
 
 # established classes from the Aquarium Combined dataset
 CLASSES = [

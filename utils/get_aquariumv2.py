@@ -6,7 +6,7 @@ import kagglehub
 def download_data():
     # re-direct the download to the local data directory
     repo_root = Path(__file__).resolve().parents[1]
-    data_dir = repo_root / "data" / "aquarium_raw"
+    data_dir = repo_root / "data" / "aquarium" / "raw"
     data_dir.mkdir(parents=True, exist_ok=True)
 
     downloaded_path = kagglehub.dataset_download(

@@ -1,5 +1,18 @@
 # data/
 
+Data are grouped by dataset:
+
+```text
+data/
+├── aquarium/
+│   ├── raw/       # Original COCO download
+│   └── yolo/      # Converted images and YOLO labels
+├── tiaia/
+│   └── yolo/      # Roboflow v15 download; created by get_tiaia.py
+└── reef_clip.mp4  # Existing tracking demo clip
+```
+
+
 ## Part 1: Object Detection using Aquarium V2
 
 To get the data, create the Python 3.12 environemnt with requirements.txt and run the following commands:
@@ -24,4 +37,4 @@ $env:ROBOFLOW_API_KEY="your-api-key"
 python utils/get_tiaia.py
 ```
 
-The dataset downloads to `data/tiaia_raw/` in YOLO format (so we don't need to convert this time).
+The dataset downloads to `data/tiaia/yolo/` in YOLO format (so we don't need to convert this time).

@@ -90,7 +90,7 @@ python utils/get_aquariumv2.py
 python utils/COCO_to_YOLO.py
 ```
 
-The raw dataset (in `data/aquarium_raw/`) should directly contain `train/`, `valid/`, and `test/`. The conversion script renames the output validation split to `val/` and places the three split folders into `data/aquarium_clean/`.
+The raw dataset (in `data/aquarium/raw/`) should directly contain `train/`, `valid/`, and `test/`. The conversion script renames the output validation split to `val/` and places the three split folders into `data/aquarium/yolo/`.
 
 Each prepared image has a matching text file with one row per object, in YOLO format:
 
