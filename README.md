@@ -29,7 +29,14 @@ The goal is to understand both **how to train a detector** and **how to decide w
 | `models/` | Starting weights and any trained checkpoints |
 | `outputs/` | Training results, checkpoints, plots, and evaluation tables |
 
-Some folders (e.g., `outputs/`) are created when you run the notebook. 
+Results are grouped by dataset:
+
+```text
+outputs/
+├── aquarium/
+│   └── <EXERIMENT_NAME>/
+└── tiaia/
+```
 
 ## Dataset
 
