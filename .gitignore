@@ -18,5 +18,5 @@ docs/CORAL_CAM.md
 
 # tiaia example model training files
 scripts/train_model.py
-configs/train_tiaia.yaml
+configs/tiaia/*
 src/*
