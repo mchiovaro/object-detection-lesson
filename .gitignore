@@ -5,6 +5,7 @@ models/*
 outputs/*
 
 # env
+.venv-download/
 .venv
 
 # unfinished lessons
